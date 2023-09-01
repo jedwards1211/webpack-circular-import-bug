@@ -1,0 +1,19 @@
+{
+  "name": "webpack-circular-import-bug",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Demonstrates a bug in how Webpack handles circular imports",
+  "scripts": {
+    "node-run": "tsc && node dist/index.js",
+    "webpack-run": "webpack && node dist/main.js"
+  },
+  "author": "Andy Edwards",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "9.4.4",
+    "typescript": "5.2.2",
+    "webpack": "5.88.2",
+    "webpack-cli": "5.1.4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "NodeNext",
+    "outDir": "dist",
+    "target": "es2015",
+    "allowJs": true
+  },
+  "files": ["src/index.ts"]
+}
